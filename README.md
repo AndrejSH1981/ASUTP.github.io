@@ -1,1 +1,146 @@
 # ASUTP.github.io
+<!DOCTYPE html> <!-- декларация сообщает, что в этом документе используется пятая версия HTML -->
+<html> <!-- корневой элемент HTML документа (все остальные элементы должны быть его потомками) -->
+	<head>
+    <meta charset="utf-8">
+    <title>ASUTP_MAIN</title>
+    <link rel="stylesheet" href="style.css" />
+
+          <title>Электронные часы</title>
+          <script src="./menu.js"></script>
+              <script src="./time.js"></script>
+               <script src="./messeg.js"></script>
+              <!--<script src="./mine.js"></script>-->
+	</head>
+
+	  <body>  <!-- описывает видимое содержимое страницы  -->
+
+          <header class="header">
+            <section class="recipe1">
+                <img src="./img/comp.png" class="LOGOTIP"/>
+
+                <h1><p align="left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Binary-Conn</p></strong></h1>
+                <h2><p align="left"><strong></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Комплексная автоматизация</p></strong></h2>
+                <h1><p align="left"><strong></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <button onclick="myFunction()" class="dropbtn">Переход к страницам</button>  </p></strong></h1>
+            
+                <nav>
+                  <ul id="myDropdown" class="dropdown-content">
+                    <li><a href="itp.html">>ИТП</a></li>
+                    <li><a href="pumps0.html">>НАСОСНЫЕ СТАНЦИИ</a></li>
+                    <li><a href="pallet_wrapper.html">>ПАЛЛЕТООБМОТЧИКИ</a></li>
+                  </ul>
+                </nav>
+            
+              </section>
+          </header>
+
+          <!--<input placeholder="Найти..." class="my-input"/>-->
+        <main>
+
+          <section class="recipe2">
+
+            <br /><br />
+                      <h2>О нас</h2>
+                      <p>
+                        <h3>Работая на рынке промышленной автоматизации 
+                        с .... года, накоплен большой опыт в реализации проектов разного
+                        уровня сложности и масштаба, что позволяет предложить вам следующие услуги:</h3>
+                      </p>
+                      <br /><br /><br />
+          </section>
+
+                <section class="area_1">
+                  <div class=".recipe1-col img">
+                    <!--<img width="300px" src="./img/итп.png" class="itp"/>-->
+                    <img src="./img/итп_копия.png" class="itp"/>
+                    <h3><p align="center"><strong>Автоматизация ИТП </strong></h3> 
+                    <h4><p align="center"><strong>Что из себя представляют тепловые пункты
+                Тепловые пункты (ТП) – это специальные устройства, которые обеспечивают централизованное 
+                распределение тепла от источника до конечного потребителя. Они включают 
+                в себя системы отопления, горячего водоснабжения и вентиляции.  <br /></p></h4>
+                <p align="right"><strong>
+                  В зависимости от
+                от размера и сложности ТП подразделяются: <br />
+                - индивидуальные тепловые пункты (ИТП);<br />
+                - центральные тепловые пункты (ЦТП).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></h5>
+                
+                <p><a href="itp.html"><h5><br />
+                  <p align="right"><strong> --Для получения более подробной информации нажмите на текст выше--</strong>
+                  </p></a></h5></p>
+                </div>
+              </section>
+              
+
+                <br /><br />
+
+                <section class="area_1">
+                  <div class=".recipe1-col img">
+                <img src="./img/насосная_копия.png" class="pumps"/>
+                <h3><p align="center"><strong>Насосная станция (установка)</strong></p></h3><br />
+                  <h4><p align="center"><strong>Насосная установка применяется
+                    для повышения давления и автоматического поддержания его
+                     заданной величины в системах водоснабжения жилых, административных
+                      и производственных зданий.<br />
+                      <p align="left"><strong>
+                        В зависимости от назначения насосные станции бывают:<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- с прямым пуском насосов;  <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- с плавным пуском насосов;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- с частотным регулированием скорости вращения насосов т.д..<br />
+                        </strong></p></p></h4>
+
+                <p><h5>
+                  <a href="pumps0.html"><p align="left"><strong> --Для получения более подробной информации нажмите на текст выше--</strong>
+                  </p></a></h5></p>
+                </div></section>
+                
+                <br /><br />
+
+                <section class="area_1">
+                  <div class=".recipe1-col img">
+                    <img src="./img/полетообмотчик_копия.png" class="itp"/>
+                    <h3><p align="center"><strong>Производство паллетообмотчиков </strong></h3> 
+                      <h4><p align="center"><strong>Паллетообмотчик — это упаковочная машина, 
+                        выполняющая обматывание палет и грузов пленкой для обеспечения их 
+                        надежной защиты и стабилизации во время хранения и транспортировки.
+                         Он очень полезен в высокопроизводительной промышленности.<br /></p>
+                        <p align="right"><strong> Существуют различные виды паллетообмотчиков:<br />
+                         - с поворотным столом;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                         - с поворотным кронштейном;&nbsp;&nbsp;&nbsp;</br>
+                         - роботы-паллетообмотчики т.д..</strong></h5></a></p>
+                <p><a href="pallet_wrapper.html"><h4>
+                  <p align="right"><strong> --Для получения более подробной информации нажмите на текст выше--</strong>
+                  </p></a></h5></p>
+                </div>
+              </section>
+
+            </br></br>
+        <section class="recipe2">
+              <form action="mailto:you@yourdmainhere.com" method="post"
+              enctype="text/plain" >
+              FirstName:<input type="text" name="FirstName">
+              Email:<input type="text" name="Email">
+              <input type="submit" name="submit" value="Submit">
+              </form>
+
+                    <!--<script>-->
+                      <!-- let date = new Date();-->
+                      <!-- alert("Сейчас " + date);-->
+                      <!--</script>-->
+
+             
+                <h4>Электронные часы:<div id="clock"></div></h4> 
+             </section>
+
+        </main>
+
+        <br /><br />
+
+        <footer align="center">Копиригхт 2024</footer>
+	  </body>
+
+    
+<iframe src="./img/СП 31.13330.2021 Водоснабжение. Наружные сети и сооружения СНиП 2.04.02-84_Текст.pdf"
+        width="100%"
+        height="600px">
+</iframe>
+</html> <!--закрывающий элемент (после него не должно быть каких-либо элементов) -->
