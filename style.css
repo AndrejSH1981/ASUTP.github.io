@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+
+
+body {
+  margin: center;
+  height: 1200px;
+ background-color: #c7b39b; /* Цвет фона */
+ background-image: url("./img/Безымянный.png"); /* Путь к фоновому изображению */
+ animation: "./img/Безымянный.png" 30s linear infinite;
+}
+
+  table {margin: auto; width: 800; border-spacing: 0; }
+  tr { background: #8b95795a url(images/orangebg.png) repeat-y;
+ }
+ header {
+  margin: center;
+  width:  100%;
+  background-color: #85a7e6; /* Цвет фона */
+ }
+ .LOGOTIP {
+  float: left; /* Обтекание картинки по right краю */
+  margin:center;
+  max-width:160px;
+
+ }
+ h1 {
+  margin: center;
+ }
+
+ IMG.itp {
+  float: right; /* Обтекание картинки по left краю */
+  margin-top: 5px; /* Отступ */
+  padding-left: 15px; /* Отступ слева */
+  padding-right: 50px; /* Отступ слева */
+  padding-bottom: 5px; /* Отступ снизу */
+  max-width: 28%;
+  max-height: 100%;
+ }
+ 
+ /*-------------------------------------*/
+ IMG.pumps {
+  float: left; /* Обтекание картинки по right краю */
+  margin-top: 5px; /* Отступ */
+  padding-left: 50px; /* Отступ слева */
+  padding-right: 15px; /* Отступ слева */
+  padding-bottom: 5px; /* Отступ снизу */
+  max-width: 28%;
+  max-height: 100%;
+ }
+
+
+ .recipe1{
+ display: block;
+ box-sizing: border-box;
+  width: 1000px;
+ margin: 0 auto;
+ /*background: rgb(131, 124, 124); */
+ }
+ .recipe2{
+  display: block;
+  box-sizing: border-box;
+   width: 1100px;
+  margin: 0 auto;
+  }
+.row-recipe{
+  margin-top: 5px; /* Отступ */
+  padding-left: 15px; /* Отступ слева */
+  padding-right: 11px; /* Отступ слева */
+  padding-bottom: 5px; /* Отступ снизу */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 90px;
+
+margin: center;
+background: rgb(179, 183, 166); 
+}
+.recipe1-col {
+margin-top: 11px; /* Отступ */
+width: 159px;
+box-sizing: border-box;
+transition: 1s; /* Время эффекта */
+}
+.recipe2-col {
+  display: block;
+  box-sizing: border-box;
+
+  width: 159px;
+  }
+.recipe1-col:hover {
+  transform: scale(3.2); /* Увеличиваем масштаб */
+ }
+
+.recipe1-col a {
+display: flex;
+flex-direction: column;
+}
+
+.area_1 {
+/*width: 100%;*/              
+display: block;
+box-sizing: border-box;
+height: 250px;
+width: 1200px;
+margin: 0 auto;
+background: rgb(220, 209, 163);                       
+}
+/* area_1 при наведении и фокусировке */
+.area_1:hover, .area_1:focus {
+
+  box-shadow: 10px 18px 46px 10px rgba(0,0,0,0.2);
+}
+
+.area_2 {
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 30px;
+background: rgb(104, 110, 110); 
+}
+
+/*-------------------------------------*/
+
+/*.profile-menu{
+  list-style: none;
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.submenu{
+  list-style: none;
+    padding: 0px;
+    border: 1px solid #aaa;
+    background: #fff;
+    margin-top: 25px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+
+.submenu a{
+  text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    width:300px;
+
+}
+
+.submenu a:hover {
+  background: #f5f4f4;
+}
+
+.submenu.active {
+  display:block;
+}
+
+[data-trigger="dropdown"]{
+  padding-bottom: 35px;
+}
+
+.profile-menu{
+  list-style: none;
+  float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.submenu{
+  list-style: none;
+    padding: 0px;
+    border: 1px solid #aaa;
+    background: #fff;
+    margin-top: 25px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+
+.submenu a{
+  text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    width:300px;
+
+}
+
+.submenu a:hover {
+  background: #f5f4f4;
+}
+
+.submenu.active {
+  display:block;
+}
+
+[data-trigger="dropdown"]{
+  padding-bottom: 35px;
+}
+
+
+section {
+  max-width: 100%;
+  width:700px;
+  margin:auto;
+}
+
+#context {
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  box-shadow: 2px 2px 15px rgba(0,0,0,.5);
+  display: none;
+}
+
+.context-menu {
+  list-style: none;
+  padding: 0px;
+  margin:0px;
+}
+
+.context-menu a{
+  display: block;
+  width: 200px;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  text-shadow: none;
+  font-weight: 600;
+}
+
+.context-menu a:hover{
+  background:#ddd;
+}
+
+.context-menu a.hidden {
+  display:none;
+}
+
+.context-menu a.hidden.shown {
+  display:block;
+}
+
+input {
+  background:#0F0;
+}
+
+*/
+
+
+
+/*--------------------------------------------------
+/* Кнопка выпадающего списка */
+.dropbtn {
+  margin-left: -9px;
+  background-color: #85a7e62d;
+  color: rgba(115, 81, 154, 0.201);
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #85a7e6;
+  color: rgb(115, 81, 154);
+  box-shadow: 10px 18px 46px 10px rgba(0,0,0,0.2);
+}
+
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  margin-top: -14px;
+  margin-left: 181px;
+  display: none;
+  position: absolute;
+  /*float: right; /* Обтекание картинки по right краю */
+
+  background-color: #e1e5cf36;
+  min-width: 160px;
+  box-shadow: 10px 18px 46px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: black;
+  padding: 1px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #dddddd5f}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {display:block;}
+
+/* multimedia */
+audio{
+  filter: sepia(100%) saturate(2); /* Ретростиль всегда в моде */
+  border-radius: 25px; /* Уголки */
+  opacity: 0.5; /* Полупрозрачность элемента */
+}
+audio:hover, audio:focus {
+    border-radius: 25px; /* Уголки */
+    box-shadow: 10px 18px 46px 10px rgba(0,0,0,0.2);
+    opacity: 1.0; /* Полупрозрачность элемента */
+    transition: 1s; /* Время эффекта */
+  }
+
+  video{
+   
+    border-radius: 25px; /* Уголки */
+    opacity: 0.5; /* Полупрозрачность элемента */
+    transition: 1s; /* Время эффекта */
+  }
+  video:hover, video:focus {
+      border-radius: 25px; /* Уголки */
+      box-shadow: 10px 18px 46px 10px rgba(0,0,0,0.2);
+      opacity: 1.0; /* Полупрозрачность элемента */
+      transform: scale(2.5); /* Увеличиваем масштаб */
+      transition: 1s; /* Время эффекта */
+    }
+
+
