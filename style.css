@@ -53,7 +53,8 @@ body {
  .recipe1{
  display: block;
  box-sizing: border-box;
-  width: 1000px;
+ height: 188px;
+ width: 1000px;
  margin: 0 auto;
  /*background: rgb(131, 124, 124); */
  }
